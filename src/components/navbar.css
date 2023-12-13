@@ -1,0 +1,7 @@
+.navbar {
+  background-color: #388697;
+}
+
+.navbar .navbar-nav {
+  justify-content: right;
+}
