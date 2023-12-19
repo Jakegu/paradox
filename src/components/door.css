@@ -1,11 +1,11 @@
 .door {
-  width: 300px;
+  width: 350px;
   display: inline-block;
   border: 1px solid #717171;
   margin-right: 10px;
   cursor: pointer;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+  padding: 24px;
 }
 
 .door img {

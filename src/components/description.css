@@ -1,0 +1,18 @@
+.description {
+  display: block;
+  padding: 2rem;
+  border: 1px solid #717171;
+  border-radius: 30px;
+  width: 30rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #64b4c7;
+  color: aliceblue;
+}
+
+.description p {
+  text-align: left;
+  margin-top: 2rem;
+}

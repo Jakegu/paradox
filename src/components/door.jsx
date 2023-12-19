@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./door.css";
 
 function Door(props) {
-  const state1 = "door.jpeg";
-  const state2 = "goat.jpeg";
-  const state3 = "car.jpeg";
+  const state1 = "door.png";
+  const state2 = "goat.png";
+  const state3 = "car.png";
 
   function getImage() {
     if (!props.open) {

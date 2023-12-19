@@ -1,13 +1,13 @@
-import './footer.css';
+import "./footer.css";
 
 import { Link } from "react-router-dom";
 
 function Footer() {
-    return (
-        <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
+  return (
+    <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="#">
-          Capstone Project
+        <Link className="navbar-brand" to="/">
+          Chronicles of Paradox
         </Link>
         <button
           className="navbar-toggler"
@@ -34,18 +34,11 @@ function Footer() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link active" to="/admin">
-                Admin
-              </Link>
-            </li>
-
-            <li className="nav-item">
               <Link className="nav-link active" to="/about">
                 About Me
               </Link>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>

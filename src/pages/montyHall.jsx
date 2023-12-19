@@ -3,6 +3,7 @@ import "./montyHall.css";
 import Door from "../components/door";
 import Win from "../components/win";
 import Lose from "../components/lose";
+import Description from "../components/description";
 
 function MontyHall() {
   //A hack to reload the display everytime the reset button is clicked
@@ -115,6 +116,7 @@ function MontyHall() {
   return (
     <div className="montyHall page">
       <div key={resetKey}>
+        <Description />
         <Door
           onClick={() => handleSelection(0)}
           behind={options[0]}
