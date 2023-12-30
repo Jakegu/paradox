@@ -73,12 +73,8 @@ function MontyHall() {
   }
 
   function processSelection(index) {
-    // should find out if win/lose
-    // show the result on the screen
-    // if options on index is a car, WIN
     // close all doors, open the index
 
-    // set the chosen array to all false, except the index
     let copy = [false, false, false];
     copy[index] = true;
     setDoorChosen(copy);
